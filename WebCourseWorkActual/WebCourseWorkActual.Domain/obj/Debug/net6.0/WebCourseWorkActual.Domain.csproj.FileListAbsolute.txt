@@ -1,0 +1,12 @@
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\bin\Debug\net6.0\WebCourseWorkActual.Domain.deps.json
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\bin\Debug\net6.0\WebCourseWorkActual.Domain.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\bin\Debug\net6.0\ref\WebCourseWorkActual.Domain.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\bin\Debug\net6.0\WebCourseWorkActual.Domain.pdb
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\obj\Debug\net6.0\WebCourseWorkActual.Domain.csproj.AssemblyReference.cache
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\obj\Debug\net6.0\WebCourseWorkActual.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\obj\Debug\net6.0\WebCourseWorkActual.Domain.AssemblyInfoInputs.cache
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\obj\Debug\net6.0\WebCourseWorkActual.Domain.AssemblyInfo.cs
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\obj\Debug\net6.0\WebCourseWorkActual.Domain.csproj.CoreCompileInputs.cache
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\obj\Debug\net6.0\WebCourseWorkActual.Domain.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\obj\Debug\net6.0\ref\WebCourseWorkActual.Domain.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Domain\obj\Debug\net6.0\WebCourseWorkActual.Domain.pdb

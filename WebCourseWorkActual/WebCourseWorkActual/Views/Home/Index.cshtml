@@ -1,0 +1,53 @@
+﻿@using WebCourseWorkActual.Domain.ViewModels.Account
+@using WebCourseWorkActual.Service.Implementations
+@*@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+@model AccountService
+
+@if (User.Identity.IsAuthenticated)
+{
+  <div class="card col-md-12">
+  <div class="card-body">
+    <h5 class="card-title text-center">Добро пожаловать на сайт Automarket</h5>
+    <p class="card-text">
+      На этом сайте вы сможете выбрать подходящую для вас модель автомобиля, посмотреть его характеристики, сравнить
+      с другими моделями, а так же можете приобрести этот автомобиль
+    </p>
+    <p class="card-text"><small class="text-muted">АйтишныйДомосед</small></p>
+  </div>
+</div>
+}
+else
+{
+  <div class="card">
+    <div class="card-header">
+      Вы не авторизовались
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>Для просмотра контента вы должны авторизоваться</p>
+      </blockquote>
+    </div>
+  </div>
+}
+
+@section pageScripts
+{
+    <script>
+    
+    $('#btnHideId').click(function(){
+      $('#ulListId').hide(2000);
+    });
+    
+    $('#btnShowId').click(function () {
+      $('#ulListId').show(2000);
+    });
+  </script>
+}

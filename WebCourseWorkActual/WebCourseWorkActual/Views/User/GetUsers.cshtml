@@ -1,0 +1,18 @@
+﻿@using WebCourseWorkActual.Domain.Entity
+
+@model List<User>
+
+@{
+	ViewBag.Title = "title";
+	Layout = "_Layout";
+}
+
+@foreach (var user in Model)
+{
+	<p>@user.Id</p>
+	<p>@user.Фамилия</p>
+	<p>@user.Имя</p>
+	<p>@user.Отчество</p>
+	<p>@user.Email</p>
+	<p>@user.Пароль</p>
+}

@@ -1,0 +1,17 @@
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\bin\Debug\net6.0\WebCourseWorkActual.Service.deps.json
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\bin\Debug\net6.0\WebCourseWorkActual.Service.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\bin\Debug\net6.0\ref\WebCourseWorkActual.Service.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\bin\Debug\net6.0\WebCourseWorkActual.Service.pdb
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\bin\Debug\net6.0\WebCourseWorkActual.DAL.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\bin\Debug\net6.0\WebCourseWorkActual.Domain.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\bin\Debug\net6.0\WebCourseWorkActual.DAL.pdb
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\bin\Debug\net6.0\WebCourseWorkActual.Domain.pdb
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\WebCourseWorkActual.Service.csproj.AssemblyReference.cache
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\WebCourseWorkActual.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\WebCourseWorkActual.Service.AssemblyInfoInputs.cache
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\WebCourseWorkActual.Service.AssemblyInfo.cs
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\WebCourseWorkActual.Service.csproj.CoreCompileInputs.cache
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\WebCourseWorkActual.Service.csproj.CopyComplete
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\WebCourseWorkActual.Service.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\ref\WebCourseWorkActual.Service.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.Service\obj\Debug\net6.0\WebCourseWorkActual.Service.pdb

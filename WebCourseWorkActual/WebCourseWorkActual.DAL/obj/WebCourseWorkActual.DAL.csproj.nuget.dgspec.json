@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.DAL\\WebCourseWorkActual.DAL.csproj": {}
+  },
+  "projects": {
+    "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.DAL\\WebCourseWorkActual.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.DAL\\WebCourseWorkActual.DAL.csproj",
+        "projectName": "WebCourseWorkActual.DAL",
+        "projectPath": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.DAL\\WebCourseWorkActual.DAL.csproj",
+        "packagesPath": "C:\\Users\\Garabumba\\.nuget\\packages\\",
+        "outputPath": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Garabumba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.Domain\\WebCourseWorkActual.Domain.csproj": {
+                "projectPath": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.Domain\\WebCourseWorkActual.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.Domain\\WebCourseWorkActual.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.Domain\\WebCourseWorkActual.Domain.csproj",
+        "projectName": "WebCourseWorkActual.Domain",
+        "projectPath": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.Domain\\WebCourseWorkActual.Domain.csproj",
+        "packagesPath": "C:\\Users\\Garabumba\\.nuget\\packages\\",
+        "outputPath": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Garabumba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
