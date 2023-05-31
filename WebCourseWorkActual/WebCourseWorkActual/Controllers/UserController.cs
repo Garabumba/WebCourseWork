@@ -19,5 +19,14 @@ namespace WebCourseWorkActual.Controllers
             var response = await _userService.GetUsers();
             return View(response.Data);
         }
+        
+        [HttpGet]
+        public async Task<IActionResult> Profile()
+        {
+            int userName = int.Parse(User.Identity.Name);
+            //var response = await _userService.GetUsers();
+            var response = await _userService.GetUser(userName);
+            return View(response);
+        }
     }
 }

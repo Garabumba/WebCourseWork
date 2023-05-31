@@ -1,0 +1,16 @@
+﻿@using WebCourseWorkActual.Domain.Entity
+@using WebCourseWorkActual.Domain.ViewModels.Check
+
+@model List<CheckViewModel>
+
+@{
+	ViewBag.Title = "title";
+	Layout = "_Layout";
+}
+
+@foreach (var check in Model)
+{
+	<p>@check.Id</p>
+	<p>@check.Баланс</p>
+	<p>@check.IdПользователя</p>
+}

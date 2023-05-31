@@ -10,12 +10,14 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using WebCourseWorkActual.Domain.ViewModels.Check;
 
 namespace WebCourseWorkActual.Controllers
 {
     public class AccountController : Controller
     {
         private readonly IAccountService _accountService;
+        private readonly ICheckService _checkService = null;
         
         public AccountController(IAccountService accountService)
         {
@@ -70,6 +72,27 @@ namespace WebCourseWorkActual.Controllers
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
             return RedirectToAction("Index", "Home");
         }
+
+        //[HttpGet]
+        //public IActionResult DeleteAccount() => View();
+
+        //[HttpPost]
+        //public async Task<IActionResult> DeleteAccount(RegisterViewModel model)
+        //{
+        //    if (ModelState.IsValid)
+        //    {
+        //        var response = await _accountService.Register(model);
+        //        if (response.StatusCode == Domain.Enum.StatusCode.OK)
+        //        {
+        //            await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,
+        //                new ClaimsPrincipal(response.Data));
+
+        //            return RedirectToAction("Index", "Home");
+        //        }
+        //        ModelState.AddModelError("", response.Description);
+        //    }
+        //    return View(model);
+        //}
 
         /*[HttpPost]
         public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)

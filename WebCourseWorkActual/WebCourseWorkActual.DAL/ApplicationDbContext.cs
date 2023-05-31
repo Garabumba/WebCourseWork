@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,13 @@ namespace WebCourseWorkActual.DAL
             //Database.EnsureCreated();
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<User>()
+                .ToTable(tb => tb.HasTrigger("AddCheck"));
+        }
+
         public DbSet<User> Пользователь { get; set; }
+        public DbSet<Check> Счёт { get; set; }
     }
 }

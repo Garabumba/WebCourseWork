@@ -23,6 +23,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Check/GetChecks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tcR2V0Q2hlY2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -45,6 +49,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/User/GetUsers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRVc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/_ViewImports.cshtml]

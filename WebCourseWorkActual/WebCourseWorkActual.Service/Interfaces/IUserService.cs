@@ -17,6 +17,7 @@ namespace WebCourseWorkActual.Service.Interfaces
         //BaseResponse<Dictionary<int, string>> GetRoles();
 
         Task<BaseResponse<IEnumerable<UserViewModel>>> GetUsers();
+        Task<User> GetUser(int id);
 
         //Task<IBaseResponse<bool>> DeleteUser(int id);
     }

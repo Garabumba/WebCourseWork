@@ -1,0 +1,50 @@
+﻿@using WebCourseWorkActual.Domain.Entity
+@using WebCourseWorkActual.Domain.ViewModels.User
+
+@model User
+
+@{
+	ViewBag.Title = "title";
+	Layout = "_Layout";
+}
+
+@*@foreach (var user in Model)
+{
+	<p>Здравствуй</p>
+	//<p>@user.Id</p>
+	<p>@user.Фамилия</p>
+	<p>@user.Имя</p>
+	<p>@user.Отчество</p>
+	<p>@user.Email</p>
+	<p>@user.Пароль</p>
+	<form method="post" asp-controller="Account" asp-action="Logout">
+		<input class="btn btn-danger rounded" style="font-family:'Comic Sans MS'; font-weight: bold; font-size:20px;" type="submit" value="Выход" />
+	</form>
+}*@
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card mt-5">
+          <div class="card-body">
+			@*@foreach (var user in Model)*@
+			@*{*@
+			<h5 class="card-title">@Model.Имя @Model.Фамилия @Model.Отчество</h5>
+			@*}*@
+            @*<p class="card-text">Age: 30</p>*@
+            <p class="card-text">Email: @Model.Email</p>
+			<form method="post" asp-controller="Account" asp-action="Logout">
+				<input class="btn btn-danger rounded" style="font-family:'Comic Sans MS'; font-weight: bold; font-size:20px;" type="submit" value="Выход" />
+			</form>
+			<form method="post" asp-controller="Account" asp-action="DeleteAccount">
+				<input class="btn btn-danger rounded" style="font-family:'Comic Sans MS'; font-weight: bold; font-size:20px;" type="submit" value="Удалить аккаунт" />
+			</form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+</body>

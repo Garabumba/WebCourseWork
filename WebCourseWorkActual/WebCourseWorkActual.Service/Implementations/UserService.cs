@@ -249,6 +249,36 @@ namespace WebCourseWorkActual.Service.Implementations
             }
         }
 
+        public async Task<User> GetUser(int id)
+        {
+            try
+            {
+                return await _userRepository.GetAll().Where(x => x.Id == id).FirstOrDefaultAsync();
+
+                //_logger.LogInformation($"[UserService.GetUser] получено элементов {user.Count}");
+                //return user;
+                //return new BaseResponse<User>()
+                //{
+                //    Data = user,
+                //    StatusCode = StatusCode.OK
+                //};
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+            /*catch (Exception ex)
+            {
+                _logger.LogError(ex, $"[UserSerivce.GetUsers] error: {ex.Message}");
+                return new BaseResponse<IEnumerable<UserViewModel>>()
+                {
+                    StatusCode = StatusCode.InternalServerError,
+                    Description = $"Внутренняя ошибка: {ex.Message}"
+                };
+            }*/
+        }
+
         /*public async Task<IBaseResponse<bool>> DeleteUser(long id)
         {
             try

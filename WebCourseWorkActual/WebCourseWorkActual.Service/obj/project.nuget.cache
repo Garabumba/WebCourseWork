@@ -1,14 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "TLxUxfXZl5u5OTJK8r2CEggLlSRXChcazL6QacnvxqM8e9c/4DLhWPIm2rAf1duNaFWwqL3ATVM8dyd0lKD4sQ==",
+  "dgSpecHash": "5cN2AGgwf9pg9riHkuRZcdA9PrK7gi3KE+FdQhT979bndj++R/Tfh5wTttpBNTIWOcoRDJGE2ouga6pqyjsvEA==",
   "success": true,
   "projectFilePath": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual.Service\\WebCourseWorkActual.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
+    "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.5\\microsoft.entityframeworkcore.relational.7.0.5.nupkg.sha512",
     "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Garabumba\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
