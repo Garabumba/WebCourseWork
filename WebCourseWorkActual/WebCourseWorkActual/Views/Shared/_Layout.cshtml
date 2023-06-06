@@ -14,16 +14,17 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">СЧЁТ</a>
+						<a asp-controller="Home" asp-action="" class="nav-link active" aria-current="page">СЧЁТ</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="news.html">НОВОСТИ</a>
+						@*<a class="nav-link" href="news.html">КАТЕГОРИИ</a>*@
+                        <a asp-controller="Categories" asp-action="GetCategories" class="nav-link" aria-current="page">КАТЕГОРИИ</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about.html">О НАС</a>
+						<a class="nav-link" href="about.html">ЦЕЛИ</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="order.html">ДОСТАВКА И ОПЛАТА</a>
+						<a class="nav-link" href="order.html">СТАТИСТИКА</a>
 					</li>
 				</ul>
 			</div>

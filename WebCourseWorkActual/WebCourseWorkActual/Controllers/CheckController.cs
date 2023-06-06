@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebCourseWorkActual.Domain.Entity;
 using WebCourseWorkActual.Service.Interfaces;
 
 namespace WebCourseWorkActual.Controllers
@@ -12,11 +13,15 @@ namespace WebCourseWorkActual.Controllers
             _checkService = checkService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> GetChecks()
+        [HttpPost]
+        public async Task<Check> ChangeBalance(decimal newValue)
         {
-            var response = await _checkService.GetChecks();
-            return View(response.Data);
+            int userId = int.Parse(User.Identity.Name);
+            var response = await _checkService.GetCheck(userId);
+            Check c = response;
+            c.Баланс = newValue;
+            return await _checkService.ChangeBalance(c);
+            //return View(newResponse);//response.Data);
         }
     }
 }

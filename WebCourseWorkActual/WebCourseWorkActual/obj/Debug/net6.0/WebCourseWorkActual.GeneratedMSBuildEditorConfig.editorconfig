@@ -23,6 +23,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Categories/AddNewExpenseCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBZGROZXdFeHBlbnNlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Categories/AddNewIncomeCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xBZGROZXdJbmNvbWVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Categories/ChangeExpenseCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDaGFuZ2VFeHBlbnNlQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Categories/ChangeIncomeCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDaGFuZ2VJbmNvbWVDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Categories/GetCategories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xHZXRDYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Check/GetChecks.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tcR2V0Q2hlY2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

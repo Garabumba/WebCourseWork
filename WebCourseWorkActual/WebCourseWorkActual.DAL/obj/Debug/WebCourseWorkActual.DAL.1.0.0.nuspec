@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>WebCourseWorkActual.DAL</id>
+    <version>1.0.0</version>
+    <authors>WebCourseWorkActual.DAL</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="WebCourseWorkActual.Domain" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore" version="7.0.5" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.EntityFrameworkCore.Relational" version="7.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual.DAL\bin\Debug\net6.0\WebCourseWorkActual.DAL.dll" target="lib\net6.0\WebCourseWorkActual.DAL.dll" />
+  </files>
+</package>

@@ -10,6 +10,7 @@ namespace WebCourseWorkActual.Domain.Enum
 	{
 		UserNotFound = 0,
 		UserAlreadyExists = 1,
+		ExpenseCategoryAlreadyExists = 2,
 		OK = 200,
 		InternalServerError = 500
 	}

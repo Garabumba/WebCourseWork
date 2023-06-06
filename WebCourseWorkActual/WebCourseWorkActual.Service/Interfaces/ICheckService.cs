@@ -12,11 +12,14 @@ namespace WebCourseWorkActual.Service.Interfaces
     public interface ICheckService
     {
         //Task<IBaseResponse<IEnumerable<User>>> GetUsers();
-        Task<IBaseResponse<Check>> Create(CheckViewModel model);
+        //Task<IBaseResponse<Check>> Create(CheckViewModel model);
 
         //BaseResponse<Dictionary<int, string>> GetRoles();
 
-        Task<BaseResponse<IEnumerable<CheckViewModel>>> GetChecks();
+        //Task<BaseResponse<IEnumerable<CheckViewModel>>> GetChecks();
+        Task<Check> GetCheck(int id);
+
+        Task<Check> ChangeBalance(Check check);
 
         //Task<IBaseResponse<bool>> DeleteUser(int id);
     }

@@ -23,8 +23,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 //    entry.ToTable(tb => tb.HasTrigger("MyTable_Insert"));
 //});
 
+//builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//    options.UseSqlServer(connection));
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(connection));
+    options.UseSqlServer(connection), ServiceLifetime.Scoped);
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>

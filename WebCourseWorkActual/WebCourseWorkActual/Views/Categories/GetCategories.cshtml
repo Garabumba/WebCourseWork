@@ -1,0 +1,74 @@
+﻿@using WebCourseWorkActual.Domain.Entity
+
+@model General
+
+@if (User.Identity.IsAuthenticated)
+{
+<div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 mt-5">
+        <h1 class="text-center">Financial Tracker</h1>
+        <div class="mb-3">
+          @*<p class="card-text">Баланс: @Model.</p>*@
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <h2 class="text-center">Expenses</h2>
+        <ul class="list-group">
+          <a asp-controller="Categories" asp-action="AddNewExpenseCategory" class="btn btn-success">Add</a>
+          @foreach (var expenseCategory in Model.expenseCategories)
+          {
+            <li class="list-group-item">@expenseCategory.Название
+                @if (@expenseCategory.Id > 10)
+                {
+                    <div class="float-end">
+                        <a class="btn btn-primary btn-sm changeExpenseButton">Редактировать</a>
+                        <a class="btn btn-danger btn-sm deleteExpenseButton" id="">Удалить</a>
+                    </div>
+                }
+            </li>
+          }
+          @*<li class="list-group-item">Expense 2</li>*@
+          @*<li class="list-group-item">Expense 3</li>*@
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-center">Incomes</h2>
+        <ul class="list-group">
+          <a asp-controller="Categories" asp-action="AddNewIncomeCategory" class="btn btn-success">Add</a>
+          @foreach (var incomeCategory in Model.incomeCategories)
+          {
+            <li class="list-group-item">@incomeCategory.Название
+                @if (@incomeCategory.Id > 5)
+                {
+                    <div class="float-end">
+                        <a class="btn btn-primary btn-sm changeIncomeButton">Редактировать</a>
+                        <a class="btn btn-danger btn-sm deleteIncomeButton" id="">Удалить</a>
+                    </div>
+                }
+            </li>
+          }
+        </ul>
+      </div>
+    </div>
+  </div>
+}
+else
+{
+  <div class="card">
+    <div class="card-header">
+      Вы не авторизовались
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>Для просмотра контента вы должны авторизоваться</p>
+      </blockquote>
+    </div>
+  </div>
+}
+
+  <script src="lib/jquery/dist/jquery.js"></script>
+  <script src="js/site.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>

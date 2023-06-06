@@ -14,6 +14,10 @@ namespace WebCourseWorkActual
             //services.AddScoped<IBaseRepository<Car>, CarRepository>();
             services.AddScoped<IBaseRepository<User>, UserRepository>();
             services.AddScoped<IBaseRepository<Check>, CheckRepository>();
+            services.AddScoped<IBaseRepository<ExpenseCategory>, ExpenseCategoryRepository>();
+            services.AddScoped<IBaseRepository<CheckExpenseCategory>, CheckExpenseCategoryRepository>();
+            services.AddScoped<IBaseRepository<IncomeCategory>, IncomeCategoryRepository>();
+            services.AddScoped<IBaseRepository<CheckIncomeCategory>, CheckIncomeCategoryRepository>();
             //services.AddScoped<IBaseRepository<Profile>, ProfileRepository>();
             //services.AddScoped<IBaseRepository<Basket>, BasketRepository>();
             //services.AddScoped<IBaseRepository<Order>, OrderRepository>();
@@ -25,6 +29,10 @@ namespace WebCourseWorkActual
             services.AddScoped<IAccountService, AccountService>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<ICheckService, CheckService>();
+            services.AddScoped<IExpenseCategoryService, ExpenseCategoryService>();
+            services.AddScoped<ICheckExpenseCategoryService, CheckExpenseCategoryService>();
+            services.AddScoped<IIncomeCategoryService, IncomeCategoryService>();
+            services.AddScoped<ICheckIncomeCategoryService, CheckIncomeCategoryService>();
             //services.AddScoped<IProfileService, ProfileService>();
             //services.AddScoped<IBasketService, BasketService>();
             //services.AddScoped<IOrderService, OrderService>();
