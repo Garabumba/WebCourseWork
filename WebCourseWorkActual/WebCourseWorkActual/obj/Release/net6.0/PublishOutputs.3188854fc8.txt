@@ -7,8 +7,10 @@ D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Re
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\WebCourseWorkActual.pdb
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Azure.Core.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Azure.Identity.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.DotNet.PlatformAbstractions.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
@@ -18,6 +20,7 @@ D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Re
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.DependencyModel.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Logging.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Extensions.Options.dll
@@ -32,6 +35,8 @@ D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Re
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Microsoft.Win32.SystemEvents.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.Bson.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\System.Drawing.Common.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll

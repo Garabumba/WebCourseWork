@@ -47,6 +47,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hlY2tcR2V0Q2hlY2tzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Home/AddNewExpense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGROZXdFeHBlbnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Home/AddNewIncome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGROZXdJbmNvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Home/ChangeExpense.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFuZ2VFeHBlbnNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Home/ChangeIncome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFuZ2VJbmNvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -65,6 +81,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/Statistic/GetStatistic.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdGlzdGljXEdldFN0YXRpc3RpYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/GitWebCourseWork/WebCourseWork/WebCourseWorkActual/WebCourseWorkActual/Views/User/GetUsers.cshtml]

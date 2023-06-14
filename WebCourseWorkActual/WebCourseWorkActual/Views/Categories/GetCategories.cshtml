@@ -18,7 +18,7 @@
         <h2 class="text-center">Expenses</h2>
         <ul class="list-group">
           <a asp-controller="Categories" asp-action="AddNewExpenseCategory" class="btn btn-success">Add</a>
-          @foreach (var expenseCategory in Model.expenseCategories)
+          @foreach (var expenseCategory in Model.ExpenseCategories)
           {
             <li class="list-group-item">@expenseCategory.Название
                 @if (@expenseCategory.Id > 10)
@@ -38,7 +38,7 @@
         <h2 class="text-center">Incomes</h2>
         <ul class="list-group">
           <a asp-controller="Categories" asp-action="AddNewIncomeCategory" class="btn btn-success">Add</a>
-          @foreach (var incomeCategory in Model.incomeCategories)
+          @foreach (var incomeCategory in Model.IncomeCategories)
           {
             <li class="list-group-item">@incomeCategory.Название
                 @if (@incomeCategory.Id > 5)
@@ -68,7 +68,16 @@ else
     </div>
   </div>
 }
+@section pageScripts
+{
+    <script>
+    var names = document.querySelectorAll('.nav-link');
+    names[0].classList.remove("active");
+    names[2].classList.remove("active");
+    names[1].classList.add("active");
+    </script>
+    <script src="lib/jquery/dist/jquery.js"></script>
+<script src="js/site.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>
+}
 
-  <script src="lib/jquery/dist/jquery.js"></script>
-  <script src="js/site.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,131 @@
+﻿@using WebCourseWorkActual.Domain.Entity
+@using WebCourseWorkActual.Domain.ViewModels.Account
+@using WebCourseWorkActual.Service.Implementations
+
+@{
+    ViewData["Title"] = "Статистика";
+}
+@*
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+@model General
+@if (User.Identity.IsAuthenticated)
+{
+<div class="container mt-5">
+        <div class="month-container">
+            <div class="text-center">
+                <button id="prevMonth" class="btn btn-primary">&lt;</button>
+            </div>
+            <div class="text-center">
+                <h2 id="month">June 2023</h2>
+            </div>
+            <div class="text-center">
+                <button id="nextMonth" class="btn btn-primary">&gt;</button>
+            </div>
+        </div>
+        @if (Model.Expenses.Count > 0 || Model.Incomes.Count > 0)
+        {
+        <div class="row mt-5">
+            <h2 class="text-center" id="total">Итого: </h2> 
+            @*<div class="chart-container">*@
+                <canvas id="pieChart"></canvas>
+                <div id="legend" class="legend-container"></div>
+            @*</div>*@
+      <div class="col-md-6">
+        <h2 class="text-center" id="expensesSum">Расходы</h2>
+        <ul class="list-group" id="expenseList">
+          @for (int i = Model.Expenses.Count - 1; i >= 0; i--)
+          {
+              @foreach (var expenseCategory in Model.ExpenseCategories)
+              {
+                  @if (Model.Expenses[i].IdКатегорииРасхода == expenseCategory.Id)
+                  {
+                    <li class="list-group-item expense-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="d-flex justify-content-between align-items-end">
+                                    <div>
+                                        <span>@Model.Expenses[i].Описание</span>
+                                        <br>
+                                        <span class="text-muted">@expenseCategory.Название</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small">@Model.Expenses[i].Дата</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-end align-items-center">
+                                <div class="text-right font-weight-bold text-danger">
+                                    <span class="" id="expenseSum">@Model.Expenses[i].Сумма</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    continue;
+                   }
+              }
+          }
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-center" id="incomesSum">Доходы</h2>
+        <ul class="list-group" id="incomeList">
+          @for (int i = Model.Incomes.Count - 1; i >= 0; i--)
+          {
+              @foreach (var incomeCategory in Model.IncomeCategories)
+              {
+                  @if (Model.Incomes[i].IdКатегорииДохода == incomeCategory.Id)
+                  {
+                    <li class="list-group-item expense-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="d-flex justify-content-between align-items-end">
+                                    <div>
+                                        <span>@Model.Incomes[i].Описание</span>
+                                        <br>
+                                        <span class="text-muted">@incomeCategory.Название</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small">@Model.Incomes[i].Дата</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-end align-items-center">
+                                <div class="text-right font-weight-bold text-success">
+                                    <span class="" id="incomeSum">@Model.Incomes[i].Сумма</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    continue;
+                   }
+              }
+          }
+        </ul>
+      </div>
+    </div>
+    }
+    </div>
+
+    
+}
+else
+{
+  <div class="card">
+    <div class="card-header">
+      Вы не авторизовались
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>Для просмотра контента вы должны авторизоваться</p>
+      </blockquote>
+    </div>
+  </div>
+}
+@section pageScripts
+{
+    <script src="~/js/stat.js" asp-append-version="true"></script>
+}

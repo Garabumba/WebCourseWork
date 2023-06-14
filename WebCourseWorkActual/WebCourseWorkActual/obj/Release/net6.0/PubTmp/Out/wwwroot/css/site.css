@@ -6,6 +6,44 @@ html {
     padding-top: 20px;
 }
 
+.month-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.month-container .btn {
+    width: 40px;
+}
+
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: auto; /* Максимальная ширина диаграммы */
+    margin: 0 auto;
+}
+
+.legend-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.legend-container span {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.legend-container span:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+
+
 @media (min-width: 768px) {
   html {
     font-size: 16px;
@@ -20,3 +58,4 @@ html {
 body {
   margin-bottom: 60px;
 }
+

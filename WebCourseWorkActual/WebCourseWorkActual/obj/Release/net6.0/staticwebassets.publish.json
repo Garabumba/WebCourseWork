@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kbYoqP+euDnvLVyFC6/10BmYIE+cx3wNXZH0k2Cvk5w=",
+  "Hash": "GrFeto32WUhyWtJ4BLOrSDP16vf35pl8SyyWofFIQb0=",
   "Source": "WebCourseWorkActual",
   "BasePath": "_content/WebCourseWorkActual",
   "Mode": "Default",
@@ -491,6 +491,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual\\wwwroot\\js\\stat.js",
+      "SourceId": "WebCourseWorkActual",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual\\wwwroot\\",
+      "BasePath": "_content/WebCourseWorkActual",
+      "RelativePath": "js/stat.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\stat.js"
     },
     {
       "Identity": "D:\\GitWebCourseWork\\WebCourseWork\\WebCourseWorkActual\\WebCourseWorkActual\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

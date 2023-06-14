@@ -7443,6 +7443,10 @@ textarea.form-control-lg {
   align-items: center !important;
 }
 
+.text-right {
+    text-align: right;
+}
+
 .align-items-baseline {
   align-items: baseline !important;
 }
@@ -7947,6 +7951,10 @@ textarea.form-control-lg {
 
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
+}
+
+.font-weight-bold {
+  font-weight: bold;
 }
 
 .fs-1 {

@@ -47,14 +47,18 @@ namespace WebCourseWorkActual.Controllers
         [HttpGet]
         public async Task<IActionResult> GetCategories()
         {
-            var expenseResponse = await _expenseCategoryService.GetExpenseCategories(int.Parse(User.Identity.Name));
-            var incomeResponse = await _incomeCategoryService.GetIncomeCategories(int.Parse(User.Identity.Name));
+            if (User.Identity.IsAuthenticated)
+            {
+                var expenseResponse = await _expenseCategoryService.GetExpenseCategories(int.Parse(User.Identity.Name));
+                var incomeResponse = await _incomeCategoryService.GetIncomeCategories(int.Parse(User.Identity.Name));
 
-            General info = new General();
-            info.incomeCategories = incomeResponse.Data.ToList();
-            info.expenseCategories = expenseResponse.Data.ToList();
+                General info = new General();
+                info.IncomeCategories = incomeResponse.Data.ToList();
+                info.ExpenseCategories = expenseResponse.Data.ToList();
 
-            return View(info);
+                return View(info);
+            }
+            return View();
         }
 
         [HttpPost]

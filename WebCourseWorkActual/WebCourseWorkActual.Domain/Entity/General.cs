@@ -10,7 +10,9 @@ namespace WebCourseWorkActual.Domain.Entity
     {
         public User User { get; set; }
         public Check Check { get; set; }
-        public List<ExpenseCategory> expenseCategories { get; set; }
-        public List<IncomeCategory> incomeCategories { get; set; }
+        public List<ExpenseCategory> ExpenseCategories { get; set; }
+        public List<IncomeCategory> IncomeCategories { get; set; }
+        public List<Expenses> Expenses { get; set; }
+        public List<Incomes> Incomes { get; set; }
     }
 }

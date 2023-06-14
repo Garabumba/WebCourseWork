@@ -2,7 +2,7 @@
 
 @{
     Layout = "_Layout";
-    ViewBag.Title = "Добавить новую категорию расхода";
+    ViewBag.Title = "Добавить новую категорию дохода";
 }
 
 <div style="padding: 20px;"></div>
@@ -21,9 +21,9 @@
                             <form asp-controller="Categories" asp-action="AddNewIncomeCategory">
                                 <div asp-validation-summary="All" style="font-size:23px; font-family:Impact" class="text-danger text-center"></div>
                                 <div class="form-group">
-                                    <input asp-for="Name" class="form-control textbox-dg font-weight-bold text-center" placeholder="Имя" type="text">
+                                    <input asp-for="Name" class="form-control textbox-dg font-weight-bold text-center" placeholder="Название" type="text">
                                 </div>
-                                <button class="btn btn-success btn-lg float-right" type="submit">Отправить</button>
+                                <button class="btn btn-success btn-lg float-right" type="submit">Добавить</button>
                             </form>
                         </div>
                     </div>

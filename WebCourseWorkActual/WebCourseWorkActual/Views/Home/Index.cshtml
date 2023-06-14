@@ -1,6 +1,7 @@
 ﻿@using WebCourseWorkActual.Domain.Entity
 @using WebCourseWorkActual.Domain.ViewModels.Account
 @using WebCourseWorkActual.Service.Implementations
+
 @*@{
     ViewData["Title"] = "Home Page";
 }
@@ -10,45 +11,106 @@
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>*@
 
-@model Check
+@model General
 
 @if (User.Identity.IsAuthenticated)
 {
-  @*<div class="card col-md-12">
-  <div class="card-body">
-    <h5 class="card-title text-center">Добро пожаловать на сайт Automarket</h5>
-    <p class="card-text">
-      На этом сайте вы сможете выбрать подходящую для вас модель автомобиля, посмотреть его характеристики, сравнить
-      с другими моделями, а так же можете приобрести этот автомобиль
-    </p>
-    <p class="card-text"><small class="text-muted">АйтишныйДомосед</small></p>
-  </div>
-</div>*@
 <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-6 mt-5">
-        <h1 class="text-center">Financial Tracker</h1>
-        <div class="mb-3">
-          <p class="card-text">Баланс: @Model.Баланс</p>
-        </div>
+        <h1 class="text-center">Баланс: @Model.Check.Баланс</h1>
+        @*<div class="mb-3">
+          <p class="card-text actualBalance" id="actualBalance">Баланс: @Model.Check.Баланс</p>
+        </div>*@
       </div>
     </div>
     <div class="row mt-5">
       <div class="col-md-6">
-        <h2 class="text-center">Expenses</h2>
+        <h2 class="text-center" id="expensesSum">Расходы</h2>
         <ul class="list-group">
-          <button class="btn btn-success">Add</button>
-          <li class="list-group-item">Expense 1</li>
-          <li class="list-group-item">Expense 2</li>
-          <li class="list-group-item">Expense 3</li>
+          <a asp-controller="Home" asp-action="AddNewExpense" class="btn btn-success">Add</a>
+          @for (int i = Model.Expenses.Count - 1; i >= 0; i--)//var expense in Model.expenses)
+          {
+              @foreach (var expenseCategory in Model.ExpenseCategories)
+              {
+                  @if (Model.Expenses[i].IdКатегорииРасхода == expenseCategory.Id)
+                  {
+                    <li class="list-group-item expense-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="d-flex justify-content-between align-items-end">
+                                    <div>
+                                        <span>@Model.Expenses[i].Описание</span>
+                                        <br>
+                                        <span class="text-muted">@expenseCategory.Название</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small">@Model.Expenses[i].Дата</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-end align-items-center">
+                                <div class="text-right font-weight-bold text-danger">
+                                    <span class="">@Model.Expenses[i].Сумма</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" class="expenseId" value="@Model.Expenses[i].Id">
+                            <button expense-balance-value="@Model.Expenses[i].Сумма" expense-id="@Model.Expenses[i].Id" class="btn btn-primary changeExpense">Редактировать</button>
+                            <button expense-balance-value="@Model.Expenses[i].Сумма" expense-id="@Model.Expenses[i].Id" class="btn btn-danger deleteExpense">Удалить</button>
+                        </div>
+                    </li>
+                    continue;
+                   }
+              }
+              //<li class="list-group-item">Expense 2</li>
+              //<li class="list-group-item">Expense 3</li>
+          }
         </ul>
       </div>
       <div class="col-md-6">
-        <h2 class="text-center">Incomes</h2>
+        <h2 class="text-center" id="incomesSum">Доходы</h2>
         <ul class="list-group">
-          <li class="list-group-item">Income 1</li>
-          <li class="list-group-item">Income 2</li>
-          <li class="list-group-item">Income 3</li>
+          <a asp-controller="Home" asp-action="AddNewIncome" class="btn btn-success">Add</a>
+          @for (int i = Model.Incomes.Count - 1; i >= 0; i--)//var expense in Model.expenses)
+          {
+              @foreach (var incomeCategory in Model.IncomeCategories)
+              {
+                  @if (Model.Incomes[i].IdКатегорииДохода == incomeCategory.Id)
+                  {
+                    <li class="list-group-item expense-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="d-flex justify-content-between align-items-end">
+                                    <div>
+                                        <span>@Model.Incomes[i].Описание</span>
+                                        <br>
+                                        <span class="text-muted">@incomeCategory.Название</span>
+                                    </div>
+                                    <div>
+                                        <span class="text-muted small">@Model.Incomes[i].Дата</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 d-flex justify-content-end align-items-center">
+                                <div class="text-right font-weight-bold text-success">
+                                    <span class="">@Model.Incomes[i].Сумма</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttons">
+                            <input type="hidden" class="incomeId" value="@Model.Incomes[i].Id">
+                            <button income-balance-value="@Model.Incomes[i].Сумма" income-id="@Model.Incomes[i].Id" class="btn btn-primary changeIncome">Редактировать</button>
+                            <button income-balance-value="@Model.Incomes[i].Сумма" income-id="@Model.Incomes[i].Id" class="btn btn-danger deleteIncome">Удалить</button>
+                        </div>
+                    </li>
+                    continue;
+                   }
+              }
+              //<li class="list-group-item">Expense 2</li>
+              //<li class="list-group-item">Expense 3</li>
+          }
         </ul>
       </div>
     </div>
@@ -68,16 +130,3 @@ else
   </div>
 }
 
-@section pageScripts
-{
-    <script>
-    
-    $('#btnHideId').click(function(){
-      $('#ulListId').hide(2000);
-    });
-    
-    $('#btnShowId').click(function () {
-      $('#ulListId').show(2000);
-    });
-  </script>
-}

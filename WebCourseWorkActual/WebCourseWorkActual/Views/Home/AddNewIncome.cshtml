@@ -1,0 +1,48 @@
+﻿@using WebCourseWorkActual.Domain.ViewModels.Incomes
+@model WebCourseWorkActual.Domain.ViewModels.Incomes.NewIncomeViewModel
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Добавить новый доход";
+}
+
+<div style="padding: 20px;"></div>
+
+<div class="container py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <span class="anchor"></span>
+                    <div class="card card-account card-outline-secondary border border-white">
+                        <div class="card-header">
+                            <h3 class="mb-0 text-center paragraphHome text-black">Добавление доходв</h3>
+                        </div>
+                        <div class="card-body">
+                            <form asp-controller="Home" asp-action="AddNewIncome">
+                                <div asp-validation-summary="All" style="font-size:23px; font-family:Impact" class="text-danger text-center"></div>
+                                <div class="form-group">
+                                    <input asp-for="Name" class="form-control textbox-dg font-weight-bold text-center" placeholder="Описание" type="text">
+                                </div>
+                                <div class="form-group">
+                                    <label for="Category">Категория</label>
+                                    @*@Html.DropDownListFor(m => m.Category, Model.Category, "-- Выберите категорию --", new { @class = "form-control" })*@
+                                    @*@Html.DropDownListFor(m => m.Categoty, Model.Category, "-- Выберите категорию --", new { @class = "form-control" })*@
+                                    @Html.DropDownList("Category", null, "-- Выберите категорию --", new { @class = "form-control" })
+                                </div>
+                                <div class="form-group">
+                                    <label for="Date">Дата</label>
+                                    @Html.EditorFor(m => m.Date, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                                <div class="form-group">
+                                    <input asp-for="Sum" class="form-control textbox-dg font-weight-bold text-center" placeholder="Сумма" type="text">
+                                </div>
+                                <button class="btn btn-success btn-lg float-right" type="submit">Добавить</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

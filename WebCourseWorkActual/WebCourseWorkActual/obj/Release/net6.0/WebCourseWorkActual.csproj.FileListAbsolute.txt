@@ -78,3 +78,8 @@ D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Re
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\ref\WebCourseWorkActual.dll
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\WebCourseWorkActual.pdb
 D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\obj\Release\net6.0\WebCourseWorkActual.genruntimeconfig.cache
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\bin\Release\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\bin\Release\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\bin\Release\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\bin\Release\net6.0\Newtonsoft.Json.dll
+D:\GitWebCourseWork\WebCourseWork\WebCourseWorkActual\WebCourseWorkActual\bin\Release\net6.0\Newtonsoft.Json.Bson.dll

@@ -23,6 +23,8 @@ namespace WebCourseWorkActual.DAL
         public DbSet<CheckExpenseCategory> Счёт_КатегорияРасходов { get; set; }
         public DbSet<IncomeCategory> КатегорияДоходов { get; set; }
         public DbSet<CheckIncomeCategory> Счёт_КатегорияДоходов { get; set; }
+        public DbSet<Expenses> Расходы { get; set; }
+        public DbSet<Incomes> Доходы { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
